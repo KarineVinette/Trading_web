@@ -33,7 +33,7 @@ async function fetchCryptoRSI(id, name) {
 }
 
 async function main() {
-  const resultDiv = document.getElementById('resultats');
+  const resultDiv = document.getElementById('resultats2');
   resultDiv.innerHTML = 'Chargement des données...';
 
   // Liste des cryptos CoinGecko id à analyser
