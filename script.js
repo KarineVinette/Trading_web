@@ -3,7 +3,7 @@ const cryptos = [
     { name: 'Ethereum', id: 'ethereum' },
     { name: 'Solana', id: 'solana' },
     { name: 'XRP', id: 'ripple' },
-    { name: 'Cardano', id: 'cardano' },
+    { name: 'Ada', id: 'cardano' },
     { name: 'Doge', id: 'dogecoin' },
     { name: 'Litecoin', id: 'litecoin' },
   ];
