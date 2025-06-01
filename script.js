@@ -1,12 +1,13 @@
 const cryptos = [
-    { name: 'Bitcoin', id: 'bitcoin' },
-    { name: 'Ethereum', id: 'ethereum' },
-    { name: 'Solana', id: 'solana' },
-    { name: 'XRP', id: 'ripple' },
-    { name: 'Ada', id: 'cardano' },
-    { name: 'Doge', id: 'dogecoin' },
-    { name: 'Litecoin', id: 'litecoin' },
-  ];
+  { name: 'Ada', id: 'cardano' },
+  { name: 'Bitcoin', id: 'bitcoin' },
+  { name: 'Ethereum', id: 'ethereum' },
+  { name: 'XRP', id: 'ripple' },
+  { name: 'XMR', id: 'monero' },
+  { name: 'Doge', id: 'dogecoin' },
+  { name: 'Dot', id: 'polkadot' },
+];
+
   
   async function afficherResultats() {
     const container = document.getElementById('resultats');
